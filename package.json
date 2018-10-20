@@ -1,0 +1,31 @@
+{
+  "name": "@amindunited/to-title-case",
+  "version": "0.0.0",
+  "description": "Accepts an underscore or dash separated string and returns a copy separated by underscores.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=html mocha './src/**/*.test.js' --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amindunited/to-title-case.git"
+  },
+  "keywords": [
+    "Title",
+    "Case",
+    "titlecase",
+    "String",
+    "Javscript"
+  ],
+  "author": "amindunited",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amindunited/to-title-case/issues"
+  },
+  "homepage": "https://github.com/amindunited/to-title-case#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
+  }
+}
